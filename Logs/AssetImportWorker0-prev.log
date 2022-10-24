@@ -1,0 +1,334 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.7f1 (240f4c1f462c) revision 2363212'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'fr' Physical Memory: 16229 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/1765125/Desktop/test/test/Klak-master
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61884
+Successfully changed project path to: C:/Users/1765125/Desktop/test/test/Klak-master
+C:/Users/1765125/Desktop/test/test/Klak-master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 71.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.7f1 (240f4c1f462c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/1765125/Desktop/test/test/Klak-master/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8088 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.7f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.011114 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 69.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Domain Reload Profiling:
+	ReloadAssembly (723ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (470ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+				TypeCache.Initialize (118ms)
+					TypeCache.ScanAssembly (117ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005885 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\1765125\Desktop\test\test\Klak-master\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\1765125\Desktop\test\test\Klak-master\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1076ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (843ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+				TypeCache.Initialize (255ms)
+					TypeCache.ScanAssembly (251ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (57.6 KB). Loaded Objects now: 3834.
+Memory consumption went from 0.50 GB to 0.50 GB.
+Total: 3.216500 ms (FindLiveObjects: 0.282200 ms CreateObjectMapping: 0.266800 ms MarkObjects: 2.599200 ms  DeleteObjects: 0.067500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35332.778801 seconds.
+  path: Packages/com.unity.ext.nunit/package.json
+  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec4cf5846c0eb99969151a7cf8a05a5') in 0.049683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.229847 seconds.
+  path: Packages/com.unity.ugui/package.json
+  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb99b00936fbaf4496a468ca6aa522a') in 0.002496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.913253 seconds.
+  path: Packages/com.unity.collab-proxy/package.json
+  artifactKey: Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/package.json using Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa5b45e983283a92ebf34cb243633a4') in 0.002670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.704489 seconds.
+  path: Packages/com.unity.visualscripting/package.json
+  artifactKey: Guid(545a9d2bc7370224f8d14c22f2f580e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/package.json using Guid(545a9d2bc7370224f8d14c22f2f580e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7d9be0e15ae19c18d9993356a0323a') in 0.002995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.577133 seconds.
+  path: Packages/com.unity.ide.vscode/package.json
+  artifactKey: Guid(ffc6271f08270b64ca0aae9c49235d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode/package.json using Guid(ffc6271f08270b64ca0aae9c49235d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78564ae6ed231ab3aacb85faa86f98ad') in 0.002189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.480646 seconds.
+  path: Packages/com.unity.ide.visualstudio/package.json
+  artifactKey: Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/package.json using Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429b61bfff7267bd2436e8d4ac8365aa') in 0.002417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.553285 seconds.
+  path: Packages/com.unity.ide.rider/package.json
+  artifactKey: Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider/package.json using Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e513a3740b9608de1b42c5c3056601') in 0.002233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.264104 seconds.
+  path: Assets/Samples/Klak.Test.asmdef
+  artifactKey: Guid(942727c7cf230e94392c9a7c0a443ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Klak.Test.asmdef using Guid(942727c7cf230e94392c9a7c0a443ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003dd9f32f8a880f2f0728aceb45b721') in 0.010411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.029471 seconds.
+  path: Assets/Samples/SampleAssets
+  artifactKey: Guid(6cca25b07d42ea14ea1d53b4e3fd2f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/SampleAssets using Guid(6cca25b07d42ea14ea1d53b4e3fd2f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ac3268f5d4ab9bd55bc109f81e1a87') in 0.005261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028944 seconds.
+  path: Assets/Samples/SampleAssets/DroidSansMono.ttf
+  artifactKey: Guid(64c8df8d5c67f304994ad9ba92075c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/SampleAssets/DroidSansMono.ttf using Guid(64c8df8d5c67f304994ad9ba92075c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7179f7668bfd4d4bce02a283e6530086') in 0.152428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/SampleAssets/Teapot.fbx
+  artifactKey: Guid(c4b14bb25c5ff444b9be3ef5bc95f7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/SampleAssets/Teapot.fbx using Guid(c4b14bb25c5ff444b9be3ef5bc95f7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67218071d3af19197ed0f7ba22905b90') in 0.455152 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005180 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\1765125\Desktop\test\test\Klak-master\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\1765125\Desktop\test\test\Klak-master\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (756ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+				TypeCache.Initialize (253ms)
+					TypeCache.ScanAssembly (248ms)
+				ResolveRequiredComponents (6ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (327ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (24.6 KB). Loaded Objects now: 3882.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 4.335400 ms (FindLiveObjects: 0.300700 ms CreateObjectMapping: 0.268000 ms MarkObjects: 3.730000 ms  DeleteObjects: 0.035800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21.052283 seconds.
+  path: Assets/Klak/Wiring/Editor/Klak.Wiring.Editor.asmdef
+  artifactKey: Guid(3832b6df5782a1e46901001c2b7d8d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Klak/Wiring/Editor/Klak.Wiring.Editor.asmdef using Guid(3832b6df5782a1e46901001c2b7d8d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585dffb2a8a9c716de4877be8d149d30') in 0.011143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.927130 seconds.
+  path: Assets/CalibrationScene/SceneMaterials/CalibrationFloor.mat
+  artifactKey: Guid(d681c1d72c3c16149abd2f0f25ca628c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CalibrationScene/SceneMaterials/CalibrationFloor.mat using Guid(d681c1d72c3c16149abd2f0f25ca628c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8eaf79f35269f511d61ae48a3da4580') in 0.334402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.069525 seconds.
+  path: Assets/CalibrationScene/SceneTextures/CalibrationFloorDiffuse.tif
+  artifactKey: Guid(ca7ba913502c8bb44a66350131805326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CalibrationScene/SceneTextures/CalibrationFloorDiffuse.tif using Guid(ca7ba913502c8bb44a66350131805326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2384c0fdfadd7c8b6c082d300ef267') in 0.036546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CalibrationScene/SceneTextures/CalibrationFloorSpecularGloss.tif
+  artifactKey: Guid(6185fa454db669040887c980e20126fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CalibrationScene/SceneTextures/CalibrationFloorSpecularGloss.tif using Guid(6185fa454db669040887c980e20126fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f0451fc0be084276c273933ac3d700') in 0.016124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.867440 seconds.
+  path: Assets/Scene/test.unity
+  artifactKey: Guid(582fb027337922948a8a2fc3cbbfd0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene/test.unity using Guid(582fb027337922948a8a2fc3cbbfd0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23226b93a013fd37f9001faeebb9f51') in 0.004758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.662775 seconds.
+  path: Assets/Klak/Osc
+  artifactKey: Guid(f05a33207cd0c4a8bb81dc214ab3abd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Klak/Osc using Guid(f05a33207cd0c4a8bb81dc214ab3abd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0acc19b41e87a31c9fd50e28217fc87') in 0.007222 seconds 
